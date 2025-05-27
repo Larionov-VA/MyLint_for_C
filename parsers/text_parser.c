@@ -1,5 +1,5 @@
-#include "include/structures.h"
+#include "../include/text_parser.h"
 
-options_t* parse_args(int argc, char* argv) {
+void parse_code(char* text) {
 
 }

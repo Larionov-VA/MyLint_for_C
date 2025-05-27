@@ -1,6 +1,5 @@
-#include "include/structures.h"
+#include "../include/getoption.h"
 
-
-options_t* parse_args(int argc, char* argv) {
+options_t* parse_args(int argc, char* argv, enum error_handler err) {
 
 }
