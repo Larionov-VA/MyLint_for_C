@@ -1,3 +1,3 @@
 #include "../include/structures.h"
 
-void parse_code(char* text);
+void parse_code(options_t* opt);

@@ -1,5 +1,5 @@
 #include "../include/text_parser.h"
 
-void parse_code(char* text) {
-
+void parse_code(options_t* opt) {
+    
 }
