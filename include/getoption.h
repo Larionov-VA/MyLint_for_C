@@ -1,5 +1,5 @@
 #include "../include/structures.h"
-#include "../include/input.h"
+#include "../include/io.h"
 #include "getopt.h"
 #include <stdlib.h>
 #include <string.h>

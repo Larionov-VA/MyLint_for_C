@@ -1,4 +1,4 @@
-#include "../include/input.h"
+#include "../include/io.h"
 
 FILE* open_file(char* rel_filepath){
 

@@ -1,7 +1,7 @@
 #include "../include/structures.h"
 #include "../include/getoption.h"
 #include "../include/text_parser.h"
-#include "../include/input.h"
+#include "../include/io.h"
 
 #include <stdio.h>
 
