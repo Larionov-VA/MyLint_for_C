@@ -5,7 +5,6 @@ void parse_config(options_t* opt, enum error_handler* err) {
     if (config_file) {
         text_t *text = read_from_file(config_file, err);
         
-        printf("%d %d\n", text->number_of_lines, text->count_of_symbols);
         for (int i = 0; i < text->count_of_symbols; ++i) {
             char current_char = text->text[i];
             printf("%c", current_char);

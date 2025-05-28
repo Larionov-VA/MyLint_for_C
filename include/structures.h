@@ -19,3 +19,10 @@ typedef struct {
     int number_of_lines;
     int count_of_symbols;
 }text_t;
+
+typedef struct {
+    char* name;
+    char** targets;
+    int number_of_lines;
+    int count_of_symbols;
+}config_t;
