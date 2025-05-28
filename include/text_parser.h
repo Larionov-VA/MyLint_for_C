@@ -1,4 +1,6 @@
 #include "../include/structures.h"
+#include "../include/utilits.h"
+#include "../include/io.h"
 #include <dirent.h>
 #include <sys/types.h>
 #include <stdio.h>

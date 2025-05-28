@@ -4,7 +4,6 @@ char* get_filepath(char* rel_path, char* filename, enum error_handler* err) {
     char *path_to_file = calloc(MAXIMUM_PATHNAME_SIZE, sizeof(char));
     if (path_to_file && (strlen(rel_path) + strlen(filename)) < MAXIMUM_PATHNAME_SIZE) {
         strcpy(path_to_file, rel_path);
-        strcat(path_to_file, "/");
         strcat(path_to_file, filename);
     }
     else {

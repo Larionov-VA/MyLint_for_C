@@ -13,3 +13,9 @@ enum error_handler {
     ERR_DIR,
     ERR_FILE
 };
+
+typedef struct {
+    char* text;
+    int number_of_lines;
+    int count_of_symbols;
+}text_t;

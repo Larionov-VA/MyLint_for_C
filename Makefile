@@ -7,7 +7,7 @@ main.o: getoption.o text_parser.o
 getoption.o: include/getoption.h io.o utilits.o
 	@gcc parsers/getoption.c -c -o binary_objects/getoption.o
 
-text_parser.o: include/text_parser.h utilits.o
+text_parser.o: include/text_parser.h utilits.o io.o
 	@gcc parsers/text_parser.c -c -o binary_objects/text_parser.o
 
 io.o: include/io.h
