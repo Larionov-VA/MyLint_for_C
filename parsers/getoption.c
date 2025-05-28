@@ -1,4 +1,5 @@
 #include "../include/getoption.h"
+#include "../include/utilits.h"
 
 options_t* parse_args(int argc, char* argv[], enum error_handler* err) {
     options_t* options = malloc(sizeof(options_t));
@@ -72,5 +73,6 @@ options_t* parse_args(int argc, char* argv[], enum error_handler* err) {
     else {
         *err = ERR_MEM;
     }
+    args_checker(options, err);
     return options;
 }

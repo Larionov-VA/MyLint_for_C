@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "standard",
+            "target": [
+                "goto",
+                "exit",
+                "abort",
+                "system",
+                "getenv",
+                "continue",
+                "break"
+            ],
+            "checking_outputs": 1,
+            "checking_dynamic_memory": 1
+        },
+        {
+            "name": "easy",
+            "target": [
+                "goto",
+                "abort",
+                "system",
+                "getenv"
+            ],
+            "checking_outputs": 0,
+            "checking_dynamic_memory": 1
+        }
+    ]
+}
