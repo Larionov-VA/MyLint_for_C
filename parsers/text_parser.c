@@ -7,7 +7,6 @@ void parse_config(options_t* opt, enum error_handler* err) {
         
         for (int i = 0; i < text->count_of_symbols; ++i) {
             char current_char = text->text[i];
-            printf("%c", current_char);
         }
         fclose(config_file);
     }
